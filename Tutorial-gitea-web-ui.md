@@ -59,3 +59,10 @@ Fix #2
 <div align=center>
     <img width=50% style=margin:2% src="assets/2023-11-03-11-04-39.png">
 </div>
+
+## 多人合作规范
+
+1. 主分支设置保护，不允许直接推送
+2. 进行任何修改，都需要新建分支，然后合并
+3. 有任何问题，尤其是涉及到技术细节的问题，必须在 issue 中提出，方便日后查阅
+4. 多人合作时 commit message 以及 pull request 对应的信息必须明确指出所进行的工作
