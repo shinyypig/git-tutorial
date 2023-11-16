@@ -12,6 +12,7 @@
 -   [提交 commit](#提交-commit)
 -   [新建、切换和删除分支](#新建切换和删除分支)
 -   [分支 `Rebase`](#分支-rebase)
+-   [忽略文件](#忽略文件)
 
 ## 克隆 Git Repository
 
@@ -179,3 +180,13 @@ git config pull.rebase true
 # 或全局设置
 git config --global pull.rebase true
 ```
+
+## 忽略文件
+
+仓库中可能会有一些文件你并不想同步，可以通过 `.gitignore` 来配置要忽略文件。在当前目录下新建一个名为 `.gitignore` 的文件，添加要忽略的文件名、文件夹名。
+
+<div align=center>
+    <img width=20% style=margin:2% src="assets/2023-11-16-10-56-23.png">
+</div>
+
+需要注意的是，已经同步的文件名和文件夹名不会被忽略。
